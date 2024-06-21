@@ -1,0 +1,1 @@
+export { default } from "file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/@nuxt+vite-builder@3.12.2_vue@3.4.29/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
