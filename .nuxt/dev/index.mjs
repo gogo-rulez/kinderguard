@@ -8,7 +8,7 @@ import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRender
 import { stringify, uneval } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/devalue@5.0.0/node_modules/devalue/index.js';
 import destr from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/ufo@1.5.3/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/vue@3.4.29/node_modules/vue/server-renderer/index.mjs';
+import { renderToString } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/vue@3.4.29_typescript@5.5.2/node_modules/vue/server-renderer/index.mjs';
 import { hash } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs';
 import { propsToString, renderSSRHead } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/@unhead+ssr@1.9.14/node_modules/@unhead/ssr/dist/index.mjs';
 import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/node.mjs';
@@ -23,7 +23,7 @@ import { toRouteMatcher, createRouter } from 'file:///home/gsavic/projects/goran
 import { AsyncLocalStorage } from 'node:async_hooks';
 import { consola } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/consola@3.2.3/node_modules/consola/dist/index.mjs';
 import { getContext } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/unctx@2.3.1/node_modules/unctx/dist/index.mjs';
-import { isVNode, version, unref } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/vue@3.4.29/node_modules/vue/index.mjs';
+import { isVNode, version, unref } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/vue@3.4.29_typescript@5.5.2/node_modules/vue/index.mjs';
 import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/unhead@1.9.14/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin } from 'file:///home/gsavic/projects/goran/kinderguard/node_modules/.pnpm/@unhead+shared@1.9.14/node_modules/@unhead/shared/dist/index.mjs';
 
@@ -622,7 +622,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _XK0Xy2UfCe = (nitroApp) => {
+const _eglvS8yLmx = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -690,7 +690,7 @@ function onConsoleLog(callback) {
 
 const plugins = [
   _q4cTwjTIxs,
-_XK0Xy2UfCe
+_eglvS8yLmx
 ];
 
 const scheduledTasks = false;
@@ -820,11 +820,11 @@ const errorHandler = (async function errorhandler(error, event) {
   return send(event, html);
 });
 
-const _lazy_KZAlVV = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_pYVNh4 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_KZAlVV, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_KZAlVV, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_pYVNh4, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_pYVNh4, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

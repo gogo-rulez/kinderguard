@@ -1,0 +1,1315 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "kindergardenId": 1,
+      "groupId": 1,
+      "basic_information": {
+        "full_name": "John Doe",
+        "date_of_birth": "2018-05-14",
+        "gender": "Male",
+        "photo": "john_doe.webp",
+        "parent_guardian_names": ["Jane Doe", "John Doe Sr."],
+        "contact_information": {
+          "phone_number": "555-1234",
+          "email": "jane.doe@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Peanuts"],
+        "medical_conditions": ["Asthma"],
+        "immunization_records": ["MMR", "DTP"],
+        "emergency_contact_information": {
+          "name": "John Doe Sr.",
+          "relationship": "Father",
+          "phone_number": "555-5678"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Smith",
+          "phone_number": "555-9876"
+        },
+        "special_dietary_requirements": ["Gluten-Free"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Oatmeal",
+            "lunch": "Chicken Sandwich",
+            "snacks": "Fruit"
+          },
+          "nap_times": {
+            "start_time": "12:30",
+            "end_time": "13:30"
+          },
+          "activities": ["Painting", "Story Time"],
+          "mood_behavior": "Happy"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved fine motor skills",
+        "cognitive_development": "Learning to count",
+        "social_emotional_development": "Plays well with others",
+        "special_achievements_highlights": "Won a drawing contest"
+      },
+      "incidents_reports": [
+        {
+          "date": "2024-06-20",
+          "description": "Fell during playtime",
+          "action_taken": "Applied ice pack"
+        }
+      ],
+      "parental_communication": [
+        {
+          "message": "Had a great day!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kindergardenId": 1,
+      "groupId": 1,
+      "basic_information": {
+        "full_name": "Emily Smith",
+        "date_of_birth": "2019-02-20",
+        "gender": "Female",
+        "photo": "emily_smith.jpg",
+        "parent_guardian_names": ["Anna Smith", "Robert Smith"],
+        "contact_information": {
+          "phone_number": "555-2345",
+          "email": "anna.smith@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Polio"],
+        "emergency_contact_information": {
+          "name": "Robert Smith",
+          "relationship": "Father",
+          "phone_number": "555-6789"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Brown",
+          "phone_number": "555-8765"
+        },
+        "special_dietary_requirements": ["Vegetarian"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Pancakes",
+            "lunch": "Veggie Wrap",
+            "snacks": "Yogurt"
+          },
+          "nap_times": {
+            "start_time": "12:15",
+            "end_time": "13:15"
+          },
+          "activities": ["Singing", "Crafts"],
+          "mood_behavior": "Energetic"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Running faster",
+        "cognitive_development": "Recognizes letters",
+        "social_emotional_development": "Shows empathy",
+        "special_achievements_highlights": "Recited the alphabet"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Enjoyed singing today!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kindergardenId": 1,
+      "groupId": 2,
+      "basic_information": {
+        "full_name": "Michael Brown",
+        "date_of_birth": "2018-11-02",
+        "gender": "Male",
+        "photo": "michael_brown.jpg",
+        "parent_guardian_names": ["Sarah Brown", "Thomas Brown"],
+        "contact_information": {
+          "phone_number": "555-3456",
+          "email": "sarah.brown@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Dust"],
+        "medical_conditions": ["Eczema"],
+        "immunization_records": ["MMR", "HepB"],
+        "emergency_contact_information": {
+          "name": "Thomas Brown",
+          "relationship": "Father",
+          "phone_number": "555-7890"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Green",
+          "phone_number": "555-7654"
+        },
+        "special_dietary_requirements": ["Lactose-Free"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Cereal",
+            "lunch": "Turkey Sandwich",
+            "snacks": "Apple Slices"
+          },
+          "nap_times": {
+            "start_time": "12:45",
+            "end_time": "13:45"
+          },
+          "activities": ["Building Blocks", "Outdoor Play"],
+          "mood_behavior": "Curious"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved balance",
+        "cognitive_development": "Learning shapes",
+        "social_emotional_development": "Shares toys",
+        "special_achievements_highlights": "Built a tall block tower"
+      },
+      "incidents_reports": [
+        {
+          "date": "2024-06-19",
+          "description": "Scraped knee",
+          "action_taken": "Cleaned and bandaged"
+        }
+      ],
+      "parental_communication": [
+        {
+          "message": "Very curious today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kindergardenId": 1,
+      "groupId": 2,
+      "basic_information": {
+        "full_name": "Sophia Johnson",
+        "date_of_birth": "2019-08-15",
+        "gender": "Female",
+        "photo": "sophia_johnson.jpg",
+        "parent_guardian_names": ["Linda Johnson", "David Johnson"],
+        "contact_information": {
+          "phone_number": "555-4567",
+          "email": "linda.johnson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Soy"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Varicella"],
+        "emergency_contact_information": {
+          "name": "David Johnson",
+          "relationship": "Father",
+          "phone_number": "555-8901"
+        },
+        "physician_contact_information": {
+          "name": "Dr. White",
+          "phone_number": "555-6543"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Toast",
+            "lunch": "Grilled Cheese",
+            "snacks": "Carrot Sticks"
+          },
+          "nap_times": {
+            "start_time": "12:00",
+            "end_time": "13:00"
+          },
+          "activities": ["Drawing", "Dancing"],
+          "mood_behavior": "Joyful"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Jumping high",
+        "cognitive_development": "Identifies colors",
+        "social_emotional_development": "Helps friends",
+        "special_achievements_highlights": "Created a beautiful drawing"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Had a joyful day!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kindergardenId": 1,
+      "groupId": 2,
+      "basic_information": {
+        "full_name": "Liam Davis",
+        "date_of_birth": "2019-12-10",
+        "gender": "Male",
+        "photo": "liam_davis.jpg",
+        "parent_guardian_names": ["Mary Davis", "John Davis"],
+        "contact_information": {
+          "phone_number": "555-5678",
+          "email": "mary.davis@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Shellfish"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "DTP"],
+        "emergency_contact_information": {
+          "name": "John Davis",
+          "relationship": "Father",
+          "phone_number": "555-9012"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Blue",
+          "phone_number": "555-5432"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Bagel",
+            "lunch": "Pasta",
+            "snacks": "Banana"
+          },
+          "nap_times": {
+            "start_time": "12:30",
+            "end_time": "13:30"
+          },
+          "activities": ["Reading", "Puzzle Solving"],
+          "mood_behavior": "Calm"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved coordination",
+        "cognitive_development": "Solving puzzles",
+        "social_emotional_development": "Shows patience",
+        "special_achievements_highlights": "Completed a difficult puzzle"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Enjoyed reading today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kindergardenId": 2,
+      "groupId": 3,
+      "basic_information": {
+        "full_name": "Olivia Wilson",
+        "date_of_birth": "2018-07-07",
+        "gender": "Female",
+        "photo": "olivia_wilson.jpg",
+        "parent_guardian_names": ["Karen Wilson", "James Wilson"],
+        "contact_information": {
+          "phone_number": "555-6789",
+          "email": "karen.wilson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Eggs"],
+        "medical_conditions": ["Diabetes"],
+        "immunization_records": ["MMR", "HepA"],
+        "emergency_contact_information": {
+          "name": "James Wilson",
+          "relationship": "Father",
+          "phone_number": "555-0123"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Red",
+          "phone_number": "555-4321"
+        },
+        "special_dietary_requirements": ["Low Sugar"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Fruit Salad",
+            "lunch": "Salad",
+            "snacks": "Celery Sticks"
+          },
+          "nap_times": {
+            "start_time": "12:20",
+            "end_time": "13:20"
+          },
+          "activities": ["Drawing", "Story Time"],
+          "mood_behavior": "Happy"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Running",
+        "cognitive_development": "Learning numbers",
+        "social_emotional_development": "Making friends",
+        "special_achievements_highlights": "Ran 5 laps"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Did well in drawing class.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "kindergardenId": 2,
+      "groupId": 3,
+      "basic_information": {
+        "full_name": "James Martinez",
+        "date_of_birth": "2018-10-20",
+        "gender": "Male",
+        "photo": "james_martinez.jpg",
+        "parent_guardian_names": ["Maria Martinez", "Carlos Martinez"],
+        "contact_information": {
+          "phone_number": "555-7890",
+          "email": "maria.martinez@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Polio"],
+        "emergency_contact_information": {
+          "name": "Carlos Martinez",
+          "relationship": "Father",
+          "phone_number": "555-1234"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Yellow",
+          "phone_number": "555-3210"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Pancakes",
+            "lunch": "Rice and Beans",
+            "snacks": "Orange Slices"
+          },
+          "nap_times": {
+            "start_time": "12:10",
+            "end_time": "13:10"
+          },
+          "activities": ["Soccer", "Painting"],
+          "mood_behavior": "Energetic"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Kicking a ball",
+        "cognitive_development": "Recognizes numbers",
+        "social_emotional_development": "Team play",
+        "special_achievements_highlights": "Scored a goal in soccer"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Very energetic during soccer.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "kindergardenId": 2,
+      "groupId": 4,
+      "basic_information": {
+        "full_name": "Charlotte Anderson",
+        "date_of_birth": "2019-01-25",
+        "gender": "Female",
+        "photo": "charlotte_anderson.jpg",
+        "parent_guardian_names": ["Laura Anderson", "Peter Anderson"],
+        "contact_information": {
+          "phone_number": "555-8901",
+          "email": "laura.anderson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "HepB"],
+        "emergency_contact_information": {
+          "name": "Peter Anderson",
+          "relationship": "Father",
+          "phone_number": "555-4567"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Purple",
+          "phone_number": "555-5432"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Toast",
+            "lunch": "Mac and Cheese",
+            "snacks": "Grapes"
+          },
+          "nap_times": {
+            "start_time": "12:40",
+            "end_time": "13:40"
+          },
+          "activities": ["Coloring", "Singing"],
+          "mood_behavior": "Cheerful"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Hopping",
+        "cognitive_development": "Learning songs",
+        "social_emotional_development": "Interacting with peers",
+        "special_achievements_highlights": "Sang a song in front of the class"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Loved singing today!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "kindergardenId": 2,
+      "groupId": 4,
+      "basic_information": {
+        "full_name": "William Garcia",
+        "date_of_birth": "2018-03-12",
+        "gender": "Male",
+        "photo": "william_garcia.jpg",
+        "parent_guardian_names": ["Emma Garcia", "Juan Garcia"],
+        "contact_information": {
+          "phone_number": "555-9012",
+          "email": "emma.garcia@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Varicella"],
+        "emergency_contact_information": {
+          "name": "Juan Garcia",
+          "relationship": "Father",
+          "phone_number": "555-6789"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Orange",
+          "phone_number": "555-6543"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Oatmeal",
+            "lunch": "Chicken Nuggets",
+            "snacks": "Pretzels"
+          },
+          "nap_times": {
+            "start_time": "12:25",
+            "end_time": "13:25"
+          },
+          "activities": ["Building Blocks", "Reading"],
+          "mood_behavior": "Curious"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Stacking blocks",
+        "cognitive_development": "Recognizing shapes",
+        "social_emotional_development": "Sharing with friends",
+        "special_achievements_highlights": "Built a tall tower"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Very curious today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "kindergardenId": 2,
+      "groupId": 4,
+      "basic_information": {
+        "full_name": "Isabella Rodriguez",
+        "date_of_birth": "2018-09-14",
+        "gender": "Female",
+        "photo": "isabella_rodriguez.jpg",
+        "parent_guardian_names": ["Sophia Rodriguez", "Miguel Rodriguez"],
+        "contact_information": {
+          "phone_number": "555-0123",
+          "email": "sophia.rodriguez@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "DTP"],
+        "emergency_contact_information": {
+          "name": "Miguel Rodriguez",
+          "relationship": "Father",
+          "phone_number": "555-7890"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Brown",
+          "phone_number": "555-3210"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Waffles",
+            "lunch": "Spaghetti",
+            "snacks": "Cheese Cubes"
+          },
+          "nap_times": {
+            "start_time": "12:35",
+            "end_time": "13:35"
+          },
+          "activities": ["Drawing", "Story Time"],
+          "mood_behavior": "Happy"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Balancing",
+        "cognitive_development": "Telling stories",
+        "social_emotional_development": "Expressing feelings",
+        "special_achievements_highlights": "Told a wonderful story"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Very expressive during story time.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "kindergardenId": 3,
+      "groupId": 5,
+      "basic_information": {
+        "full_name": "Henry Thompson",
+        "date_of_birth": "2018-06-30",
+        "gender": "Male",
+        "photo": "henry_thompson.jpg",
+        "parent_guardian_names": ["Linda Thompson", "David Thompson"],
+        "contact_information": {
+          "phone_number": "555-1234",
+          "email": "linda.thompson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Peanuts"],
+        "medical_conditions": ["Asthma"],
+        "immunization_records": ["MMR", "HepA"],
+        "emergency_contact_information": {
+          "name": "David Thompson",
+          "relationship": "Father",
+          "phone_number": "555-5678"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Green",
+          "phone_number": "555-9876"
+        },
+        "special_dietary_requirements": ["Gluten-Free"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Bagel",
+            "lunch": "Grilled Cheese",
+            "snacks": "Apple Slices"
+          },
+          "nap_times": {
+            "start_time": "12:30",
+            "end_time": "13:30"
+          },
+          "activities": ["Painting", "Building Blocks"],
+          "mood_behavior": "Curious"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved balance",
+        "cognitive_development": "Learning shapes",
+        "social_emotional_development": "Shares toys",
+        "special_achievements_highlights": "Built a tall block tower"
+      },
+      "incidents_reports": [
+        {
+          "date": "2024-06-19",
+          "description": "Scraped knee",
+          "action_taken": "Cleaned and bandaged"
+        }
+      ],
+      "parental_communication": [
+        {
+          "message": "Very curious today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "kindergardenId": 3,
+      "groupId": 5,
+      "basic_information": {
+        "full_name": "Ava Martinez",
+        "date_of_birth": "2018-10-20",
+        "gender": "Female",
+        "photo": "ava_martinez.jpg",
+        "parent_guardian_names": ["Maria Martinez", "Carlos Martinez"],
+        "contact_information": {
+          "phone_number": "555-7890",
+          "email": "maria.martinez@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Polio"],
+        "emergency_contact_information": {
+          "name": "Carlos Martinez",
+          "relationship": "Father",
+          "phone_number": "555-1234"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Yellow",
+          "phone_number": "555-3210"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Pancakes",
+            "lunch": "Rice and Beans",
+            "snacks": "Orange Slices"
+          },
+          "nap_times": {
+            "start_time": "12:10",
+            "end_time": "13:10"
+          },
+          "activities": ["Soccer", "Painting"],
+          "mood_behavior": "Energetic"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Kicking a ball",
+        "cognitive_development": "Recognizes numbers",
+        "social_emotional_development": "Team play",
+        "special_achievements_highlights": "Scored a goal in soccer"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Very energetic during soccer.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "kindergardenId": 3,
+      "groupId": 5,
+      "basic_information": {
+        "full_name": "Mia Anderson",
+        "date_of_birth": "2019-01-25",
+        "gender": "Female",
+        "photo": "mia_anderson.jpg",
+        "parent_guardian_names": ["Laura Anderson", "Peter Anderson"],
+        "contact_information": {
+          "phone_number": "555-8901",
+          "email": "laura.anderson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "HepB"],
+        "emergency_contact_information": {
+          "name": "Peter Anderson",
+          "relationship": "Father",
+          "phone_number": "555-4567"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Purple",
+          "phone_number": "555-5432"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Toast",
+            "lunch": "Mac and Cheese",
+            "snacks": "Grapes"
+          },
+          "nap_times": {
+            "start_time": "12:40",
+            "end_time": "13:40"
+          },
+          "activities": ["Coloring", "Singing"],
+          "mood_behavior": "Cheerful"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Hopping",
+        "cognitive_development": "Learning songs",
+        "social_emotional_development": "Interacting with peers",
+        "special_achievements_highlights": "Sang a song in front of the class"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Loved singing today!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "kindergardenId": 3,
+      "groupId": 6,
+      "basic_information": {
+        "full_name": "Ethan Johnson",
+        "date_of_birth": "2019-08-15",
+        "gender": "Male",
+        "photo": "ethan_johnson.jpg",
+        "parent_guardian_names": ["Linda Johnson", "David Johnson"],
+        "contact_information": {
+          "phone_number": "555-4567",
+          "email": "linda.johnson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Soy"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Varicella"],
+        "emergency_contact_information": {
+          "name": "David Johnson",
+          "relationship": "Father",
+          "phone_number": "555-8901"
+        },
+        "physician_contact_information": {
+          "name": "Dr. White",
+          "phone_number": "555-6543"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Toast",
+            "lunch": "Grilled Cheese",
+            "snacks": "Carrot Sticks"
+          },
+          "nap_times": {
+            "start_time": "12:00",
+            "end_time": "13:00"
+          },
+          "activities": ["Drawing", "Dancing"],
+          "mood_behavior": "Joyful"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Jumping high",
+        "cognitive_development": "Identifies colors",
+        "social_emotional_development": "Helps friends",
+        "special_achievements_highlights": "Created a beautiful drawing"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Had a joyful day!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "kindergardenId": 3,
+      "groupId": 6,
+      "basic_information": {
+        "full_name": "Alexander Davis",
+        "date_of_birth": "2019-12-10",
+        "gender": "Male",
+        "photo": "alexander_davis.jpg",
+        "parent_guardian_names": ["Mary Davis", "John Davis"],
+        "contact_information": {
+          "phone_number": "555-5678",
+          "email": "mary.davis@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Shellfish"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "DTP"],
+        "emergency_contact_information": {
+          "name": "John Davis",
+          "relationship": "Father",
+          "phone_number": "555-9012"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Blue",
+          "phone_number": "555-5432"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Bagel",
+            "lunch": "Pasta",
+            "snacks": "Banana"
+          },
+          "nap_times": {
+            "start_time": "12:30",
+            "end_time": "13:30"
+          },
+          "activities": ["Reading", "Puzzle Solving"],
+          "mood_behavior": "Calm"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved coordination",
+        "cognitive_development": "Solving puzzles",
+        "social_emotional_development": "Shows patience",
+        "special_achievements_highlights": "Completed a difficult puzzle"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Enjoyed reading today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kindergardenId": 3,
+      "groupId": 6,
+      "basic_information": {
+        "full_name": "Harper Wilson",
+        "date_of_birth": "2018-07-07",
+        "gender": "Female",
+        "photo": "harper_wilson.jpg",
+        "parent_guardian_names": ["Karen Wilson", "James Wilson"],
+        "contact_information": {
+          "phone_number": "555-6789",
+          "email": "karen.wilson@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Eggs"],
+        "medical_conditions": ["Diabetes"],
+        "immunization_records": ["MMR", "HepA"],
+        "emergency_contact_information": {
+          "name": "James Wilson",
+          "relationship": "Father",
+          "phone_number": "555-0123"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Red",
+          "phone_number": "555-4321"
+        },
+        "special_dietary_requirements": ["Low Sugar"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Fruit Salad",
+            "lunch": "Salad",
+            "snacks": "Celery Sticks"
+          },
+          "nap_times": {
+            "start_time": "12:20",
+            "end_time": "13:20"
+          },
+          "activities": ["Drawing", "Story Time"],
+          "mood_behavior": "Happy"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Running",
+        "cognitive_development": "Learning numbers",
+        "social_emotional_development": "Making friends",
+        "special_achievements_highlights": "Ran 5 laps"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Did well in drawing class.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "kindergardenId": 1,
+      "groupId": 1,
+      "basic_information": {
+        "full_name": "Lucas Brown",
+        "date_of_birth": "2018-11-02",
+        "gender": "Male",
+        "photo": "lucas_brown.jpg",
+        "parent_guardian_names": ["Sarah Brown", "Thomas Brown"],
+        "contact_information": {
+          "phone_number": "555-3456",
+          "email": "sarah.brown@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Dust"],
+        "medical_conditions": ["Eczema"],
+        "immunization_records": ["MMR", "HepB"],
+        "emergency_contact_information": {
+          "name": "Thomas Brown",
+          "relationship": "Father",
+          "phone_number": "555-7890"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Green",
+          "phone_number": "555-7654"
+        },
+        "special_dietary_requirements": ["Lactose-Free"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Cereal",
+            "lunch": "Turkey Sandwich",
+            "snacks": "Apple Slices"
+          },
+          "nap_times": {
+            "start_time": "12:45",
+            "end_time": "13:45"
+          },
+          "activities": ["Building Blocks", "Outdoor Play"],
+          "mood_behavior": "Curious"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved balance",
+        "cognitive_development": "Learning shapes",
+        "social_emotional_development": "Shares toys",
+        "special_achievements_highlights": "Built a tall block tower"
+      },
+      "incidents_reports": [
+        {
+          "date": "2024-06-19",
+          "description": "Scraped knee",
+          "action_taken": "Cleaned and bandaged"
+        }
+      ],
+      "parental_communication": [
+        {
+          "message": "Very curious today.",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "kindergardenId": 2,
+      "groupId": 3,
+      "basic_information": {
+        "full_name": "Emma Clark",
+        "date_of_birth": "2019-02-20",
+        "gender": "Female",
+        "photo": "emma_clark.jpg",
+        "parent_guardian_names": ["Anna Clark", "Robert Clark"],
+        "contact_information": {
+          "phone_number": "555-2345",
+          "email": "anna.clark@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Polio"],
+        "emergency_contact_information": {
+          "name": "Robert Clark",
+          "relationship": "Father",
+          "phone_number": "555-6789"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Brown",
+          "phone_number": "555-8765"
+        },
+        "special_dietary_requirements": ["Vegetarian"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Pancakes",
+            "lunch": "Veggie Wrap",
+            "snacks": "Yogurt"
+          },
+          "nap_times": {
+            "start_time": "12:15",
+            "end_time": "13:15"
+          },
+          "activities": ["Singing", "Crafts"],
+          "mood_behavior": "Energetic"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Running faster",
+        "cognitive_development": "Recognizes letters",
+        "social_emotional_development": "Shows empathy",
+        "special_achievements_highlights": "Recited the alphabet"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Enjoyed singing today!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kindergardenId": 3,
+      "groupId": 6,
+      "basic_information": {
+        "full_name": "Olivia Lopez",
+        "date_of_birth": "2018-05-14",
+        "gender": "Female",
+        "photo": "olivia_lopez.jpg",
+        "parent_guardian_names": ["Jane Lopez", "John Lopez"],
+        "contact_information": {
+          "phone_number": "555-1234",
+          "email": "jane.lopez@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Peanuts"],
+        "medical_conditions": ["Asthma"],
+        "immunization_records": ["MMR", "DTP"],
+        "emergency_contact_information": {
+          "name": "John Lopez",
+          "relationship": "Father",
+          "phone_number": "555-5678"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Smith",
+          "phone_number": "555-9876"
+        },
+        "special_dietary_requirements": ["Gluten-Free"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Oatmeal",
+            "lunch": "Chicken Sandwich",
+            "snacks": "Fruit"
+          },
+          "nap_times": {
+            "start_time": "12:30",
+            "end_time": "13:30"
+          },
+          "activities": ["Painting", "Story Time"],
+          "mood_behavior": "Happy"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Improved fine motor skills",
+        "cognitive_development": "Learning to count",
+        "social_emotional_development": "Plays well with others",
+        "special_achievements_highlights": "Won a drawing contest"
+      },
+      "incidents_reports": [
+        {
+          "date": "2024-06-20",
+          "description": "Fell during playtime",
+          "action_taken": "Applied ice pack"
+        }
+      ],
+      "parental_communication": [
+        {
+          "message": "Had a great day!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "kindergardenId": 1,
+      "groupId": 2,
+      "basic_information": {
+        "full_name": "Sophia Wright",
+        "date_of_birth": "2019-08-15",
+        "gender": "Female",
+        "photo": "sophia_wright.jpg",
+        "parent_guardian_names": ["Linda Wright", "David Wright"],
+        "contact_information": {
+          "phone_number": "555-4567",
+          "email": "linda.wright@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["Soy"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Varicella"],
+        "emergency_contact_information": {
+          "name": "David Wright",
+          "relationship": "Father",
+          "phone_number": "555-8901"
+        },
+        "physician_contact_information": {
+          "name": "Dr. White",
+          "phone_number": "555-6543"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Toast",
+            "lunch": "Grilled Cheese",
+            "snacks": "Carrot Sticks"
+          },
+          "nap_times": {
+            "start_time": "12:00",
+            "end_time": "13:00"
+          },
+          "activities": ["Drawing", "Dancing"],
+          "mood_behavior": "Joyful"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Jumping high",
+        "cognitive_development": "Identifies colors",
+        "social_emotional_development": "Helps friends",
+        "special_achievements_highlights": "Created a beautiful drawing"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Had a joyful day!",
+          "date": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "kindergardenId": 1,
+      "groupId": 3,
+      "basic_information": {
+        "full_name": "James Taylor",
+        "date_of_birth": "2018-10-20",
+        "gender": "Male",
+        "photo": "james_taylor.jpg",
+        "parent_guardian_names": ["Maria Taylor", "Carlos Taylor"],
+        "contact_information": {
+          "phone_number": "555-7890",
+          "email": "maria.taylor@example.com"
+        }
+      },
+      "health_medical_information": {
+        "allergies": ["None"],
+        "medical_conditions": ["None"],
+        "immunization_records": ["MMR", "Polio"],
+        "emergency_contact_information": {
+          "name": "Carlos Taylor",
+          "relationship": "Father",
+          "phone_number": "555-1234"
+        },
+        "physician_contact_information": {
+          "name": "Dr. Yellow",
+          "phone_number": "555-3210"
+        },
+        "special_dietary_requirements": ["None"]
+      },
+      "daily_activity_logs": [
+        {
+          "date": "2024-06-24",
+          "attendance_status": "Present",
+          "meals": {
+            "breakfast": "Pancakes",
+            "lunch": "Rice and Beans",
+            "snacks": "Orange Slices"
+          },
+          "nap_times": {
+            "start_time": "12:10",
+            "end_time": "13:10"
+          },
+          "activities": ["Soccer", "Painting"],
+          "mood_behavior": "Energetic"
+        }
+      ],
+      "developmental_milestones": {
+        "physical_development": "Kicking a ball",
+        "cognitive_development": "Recognizes numbers",
+        "social_emotional_development": "Team play",
+        "special_achievements_highlights": "Scored a goal in soccer"
+      },
+      "incidents_reports": [],
+      "parental_communication": [
+        {
+          "message": "Very energetic during soccer.",
+          "date": "2024-06-24"
+        }
+      ]
+    }
+  ]
+}

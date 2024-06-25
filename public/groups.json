@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Group A",
+        "kindergardenId": 1,
+        "teachers": [
+            "Ms. Anna",
+            "Mr. Bob"
+        ],
+        "age_group": "3-4 years",
+        "total_children": 15
+    },
+    {
+        "id": 2,
+        "name": "Group B",
+        "kindergardenId": 1,
+        "teachers": [
+            "Ms. Clara",
+            "Ms. Dave"
+        ],
+        "age_group": "4-5 years",
+        "total_children": 18
+    },
+    {
+        "id": 3,
+        "name": "Group C",
+        "kindergardenId": 2,
+        "teachers": [
+            "Ms. Emma",
+            "Mr. Frank"
+        ],
+        "age_group": "3-4 years",
+        "total_children": 20
+    },
+    {
+        "id": 4,
+        "name": "Group D",
+        "kindergardenId": 2,
+        "teachers": [
+            "Ms. Grace",
+            "Ms. Harry"
+        ],
+        "age_group": "4-5 years",
+        "total_children": 17
+    },
+    {
+        "id": 5,
+        "name": "Group E",
+        "kindergardenId": 3,
+        "teachers": [
+            "Ms. Ivy",
+            "Mr. Jack"
+        ],
+        "age_group": "3-4 years",
+        "total_children": 16
+    },
+    {
+        "id": 6,
+        "name": "Group F",
+        "kindergardenId": 3,
+        "teachers": [
+            "Ms. Karen",
+            "Ms. Leo"
+        ],
+        "age_group": "4-5 years",
+        "total_children": 19
+    }
+]
