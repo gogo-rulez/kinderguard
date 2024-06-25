@@ -1,6 +1,8 @@
 <script lang="ts" setup>
+import type { DevelopmentalMilestones } from '~/types';
+
 const props = defineProps<{
-    data: object
+    data: DevelopmentalMilestones
 }>()
 </script>
 

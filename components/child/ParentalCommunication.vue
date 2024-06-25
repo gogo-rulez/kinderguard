@@ -1,6 +1,8 @@
 <script lang="ts" setup>
+import type { ParentalCommunication } from '~/types';
+
 const props = defineProps<{
-    data: object
+    data: ParentalCommunication[]
 }>()
 </script>
 

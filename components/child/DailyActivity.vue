@@ -1,6 +1,8 @@
 <script lang="ts" setup>
+import type { DailyActivityLog } from '~/types';
+
 const props = defineProps<{
-    data: object
+    data: DailyActivityLog[]
 }>()
 </script>
 

@@ -1,6 +1,8 @@
 <script lang="ts" setup>
+import type { HealthMedicalInformation } from '~/types';
+
 const props = defineProps<{
-    data: object
+    data: HealthMedicalInformation
 }>()
 </script>
 

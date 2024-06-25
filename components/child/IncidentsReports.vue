@@ -1,6 +1,8 @@
 <script lang="ts" setup>
+import type { IncidentReport } from '~/types';
+
 const props = defineProps<{
-    data: object
+    data: IncidentReport[]
 }>()
 </script>
 
